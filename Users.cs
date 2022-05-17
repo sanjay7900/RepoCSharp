@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoOfCSharp
 {
-    internal class Users
+    internal class Users:AbstractionsClass
     {
         public string Name { get; set; }
         public int Age { get; set; }
@@ -14,6 +14,10 @@ namespace DemoOfCSharp
         {
             Name = name;
             Age = age;
+        }
+        public override void userinfo()
+        {
+            Console.WriteLine(" i m invoke for the About user info => {0},{1}  using Abstraction method",Name,Age);
         }
         public void GetUserDetails()
         {

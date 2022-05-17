@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractionsClass.cs" />
     <Compile Include="IPerformOverRide.cs" />
     <Compile Include="..\..\DotnetTraining\CSharpRepo\PerformOOPs.cs">
       <Link>PerformOOPs.cs</Link>

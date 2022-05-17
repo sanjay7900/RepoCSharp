@@ -35,6 +35,7 @@ namespace DemoOfCSharp
 
 
             Users user = new Users("Sanjay Singh", 22);
+            user.userinfo();
             user.GetUserDetails();
 
             Console.ReadKey();
